@@ -57,7 +57,7 @@ The main objective of this project is to apply core data mining techniques to:
 ## 🚀 Live Dashboard
 The project is deployed using **Streamlit Cloud** and can be accessed using the link below:
 
-🔗 **[Paste your Streamlit deployment link here]**
+🔗 **https://cia-social-media-dashboard-jency33.streamlit.app**
 
 ---
 
