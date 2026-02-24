@@ -69,9 +69,11 @@ section[data-testid="stSidebar"] {
 # --------------------------------------------------
 # LOAD DATA
 # --------------------------------------------------
+
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/jencya_mac/Downloads/CIA_Dashboard/data/Students Social Media Addiction.csv")
+    return pd.read_csv("data/Students Social Media Addiction.csv")
+    
 
 df = load_data()
 
