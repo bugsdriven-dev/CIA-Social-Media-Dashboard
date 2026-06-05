@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
@@ -33,7 +34,8 @@ st.set_page_config(
 # LOAD DATASET
 # ================================
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), "data.csv"))
+
 
 # ================================
 # ADD MISSING VALUES FOR DEMO
